@@ -161,6 +161,7 @@ spec:
       name: data
     spec:
       accessModes: ["ReadWriteOnce"]
+      storageClassName: "vmwarevspherevolume"
       resources:
         requests:
           storage: 10Gi
